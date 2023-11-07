@@ -21,4 +21,4 @@ jobs:
             sudo git config --global --add safe.directory /home/***/goraeph_deploy/devops-tutorial-frontend
             sudo git pull
             docker-compose build
-            docker-compose up
+            docker-compose up -d
