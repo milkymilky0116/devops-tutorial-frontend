@@ -17,3 +17,7 @@ jobs:
           port: ${{ secrets.REMOTE_SSH_PORT }}
           script: |
             whoami
+            sudo git pull
+            cd devops-tutorial-frontend
+            docker-compose build
+            docker-compose up
