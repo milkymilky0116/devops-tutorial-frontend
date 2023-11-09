@@ -16,7 +16,6 @@ jobs:
           key: ${{ secrets.REMOTE_SSH_KEY }}
           port: ${{ secrets.REMOTE_SSH_PORT }}
           script: |
-            whoami
             cd ~/goraeph_deploy/devops-tutorial-frontend
             sudo git config --global --add safe.directory /home/***/goraeph_deploy/devops-tutorial-frontend
             sudo git pull
