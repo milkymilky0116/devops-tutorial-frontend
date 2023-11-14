@@ -8,7 +8,7 @@ describe("Home", () => {
   it("render a home", () => {
     const { container } = render(<Home />);
 
-    const home = screen.getByText("Hello Everyone!");
+    const home = screen.getByText("Test");
 
     expect(home).toBeInTheDocument();
     expect(container).toMatchSnapshot();

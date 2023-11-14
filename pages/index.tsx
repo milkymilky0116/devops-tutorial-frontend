@@ -4,5 +4,5 @@ import Image from "next/image";
 import styles from "@/pages/index.module.css";
 
 export default function Home() {
-  return <div>Hello Everyone!</div>;
+  return <div>Test</div>;
 }
